@@ -1,0 +1,913 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eadd16
+Z0 w1701286966
+Z1 DPx4 work 7 myunits 0 22 AA4enbAkj>C?^3_c7gXLa3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 58
+Z4 dC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init
+Z5 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD16.vhd
+Z6 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD16.vhd
+l0
+L4 1
+VK[?=3@TdLg[YO]g;aGWMO1
+!s100 TDBCCUIQ6Ja[AkMbj5AX13
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1701287031
+!i10b 1
+Z9 !s108 1701287031.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD16.vhd|
+Z11 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD16.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+R3
+DEx4 work 5 add16 0 22 K[?=3@TdLg[YO]g;aGWMO1
+!i122 58
+l30
+L14 32
+VFQ7C;Q5KRi5hin6_Z7]G=3
+!s100 6d;iJD:aE236Bn=;fcak<3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadd32
+Z14 w1700715562
+R1
+R2
+R3
+!i122 60
+R4
+Z15 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32.vhd
+Z16 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32.vhd
+l0
+L4 1
+V@P4n3Gn@cQle>c?R`I8d?1
+!s100 2zFRh[>jizD8QnI9EL=jk0
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32.vhd|
+Z18 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32.vhd|
+!i113 1
+R12
+R13
+Astructural
+R1
+R2
+R3
+DEx4 work 5 add32 0 22 @P4n3Gn@cQle>c?R`I8d?1
+!i122 60
+l32
+L13 28
+V=NF7:WU=V;>fHF]Al>4e20
+!s100 kzzmm[5?7QJ8RY9A:aNo=0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 5 add32 0 22 nJn>Si_Y^NEODO9^CBRRf0
+!i122 9
+l32
+Z19 L26 16
+VbMW2cg5d<@RGkmJmGUS310
+!s100 ^NJ;[@Hk^3QK1@7;a6F]e2
+R7
+32
+!s110 1701201670
+!i10b 1
+!s108 1701201670.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_unsigned.vhd|
+Z21 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_unsigned.vhd|
+!i113 1
+R12
+R13
+Z22 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_unsigned.vhd
+w1701201666
+Z23 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_unsigned.vhd
+Eadd32_beh
+Z24 w1701288221
+R2
+R3
+!i122 74
+R4
+R23
+R22
+l0
+L19 1
+VUXlGT?Nzc<FijDcaPDlB<0
+!s100 z7<dekfM0MG^PXz1DL<jo3
+R7
+32
+Z25 !s110 1701293321
+!i10b 1
+Z26 !s108 1701293320.000000
+R20
+R21
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 9 add32_beh 0 22 UXlGT?Nzc<FijDcaPDlB<0
+!i122 74
+l32
+R19
+VI:aX=V1zTFW]C3QgE26CI1
+!s100 VzH=[<KjnbiWg?d[9l?G^3
+R7
+32
+R25
+!i10b 1
+R26
+R20
+R21
+!i113 1
+R12
+R13
+Eadd32_beh1
+Z27 w1701296521
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+!i122 82
+R4
+Z30 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh.vhd
+Z31 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh.vhd
+l0
+L5 1
+V3aTjik7;FPkP@BS>ooCAP1
+!s100 [IQkK8Q8IYV?WPEIl=F^j2
+R7
+32
+Z32 !s110 1701296524
+!i10b 1
+Z33 !s108 1701296524.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh.vhd|
+Z35 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R28
+R29
+R2
+R3
+DEx4 work 10 add32_beh1 0 22 3aTjik7;FPkP@BS>ooCAP1
+!i122 82
+l14
+L12 7
+VZ5`i^mF=o40:SJ?=H2mL?1
+!s100 B>7<gJaiJQF>iYGK=AGQ32
+R7
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R12
+R13
+Eadd32_beh_tb
+Z36 w1701296549
+R2
+R3
+!i122 83
+R4
+Z37 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh_tb.vhd
+Z38 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh_tb.vhd
+l0
+L3 1
+VU^5=Vd0E>@[QS1[7W^<U;2
+!s100 T[=TH9eHZfeYD>nU9LIP@3
+R7
+32
+Z39 !s110 1701296553
+!i10b 1
+Z40 !s108 1701296553.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh_tb.vhd|
+Z42 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/add32_beh_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+Z43 DEx4 work 12 add32_beh_tb 0 22 U^5=Vd0E>@[QS1[7W^<U;2
+!i122 83
+l18
+Z44 L6 27
+VZDZ_lm43<Rdi]jEfn5BLT3
+!s100 ?FCaAc7Ck=gOh@_?bOfbI0
+R7
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R12
+R13
+Eadd32_tb
+Z45 w1701285490
+R2
+R3
+!i122 61
+R4
+Z46 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32_tb.vhd
+Z47 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32_tb.vhd
+l0
+L3 1
+V24N651EVS?62`]m2mB@GT0
+!s100 0YW:F^M42BRdTDJ^Q8a^h0
+R7
+32
+R8
+!i10b 1
+R9
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32_tb.vhd|
+Z49 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R2
+R3
+DEx4 work 8 add32_tb 0 22 24N651EVS?62`]m2mB@GT0
+!i122 61
+l18
+R44
+VNdoSO^``d0OWWQo4L><l61
+!s100 Aj=XR_;]X]G@eCII^PfnJ3
+R7
+32
+R8
+!i10b 1
+R9
+R48
+R49
+!i113 1
+R12
+R13
+Eadd4
+Z50 w1701287011
+R1
+R2
+R3
+!i122 57
+R4
+Z51 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4.vhd
+Z52 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4.vhd
+l0
+L4 1
+V?0[2EDQ;<gDz:Z`V3e3DX0
+!s100 7oI3800Z5;>9^nU1VSCe52
+R7
+32
+R8
+!i10b 1
+Z53 !s108 1701287030.000000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4.vhd|
+Z55 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4.vhd|
+!i113 1
+R12
+R13
+Astrcutural
+R1
+R2
+R3
+DEx4 work 4 add4 0 22 ?0[2EDQ;<gDz:Z`V3e3DX0
+!i122 57
+l27
+L13 30
+VYkRMjl5lGkRNL4:`flXiD2
+!s100 Dn1EClU87L2V1eDEE_^jW1
+R7
+32
+R8
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R12
+R13
+Eadd4_tb
+Z56 w1700708610
+R1
+R2
+R3
+!i122 62
+R4
+Z57 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4_tb.vhd
+Z58 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4_tb.vhd
+l0
+L5 1
+V1Ez`HHVK9WZ]ReKhQcgG[0
+!s100 T66kk^1TV4;`Td`0R1@6j3
+R7
+32
+Z59 !s110 1701287032
+!i10b 1
+R9
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4_tb.vhd|
+Z61 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+DEx4 work 7 add4_tb 0 22 1Ez`HHVK9WZ]ReKhQcgG[0
+!i122 62
+l22
+L8 29
+VcHPC[[O>LRLE@feD9k=X^0
+!s100 XEXcWAS4iGTf=nVYzC]@?3
+R7
+32
+R59
+!i10b 1
+R9
+R60
+R61
+!i113 1
+R12
+R13
+Eand2
+Z62 w1700719342
+R2
+R3
+!i122 59
+R4
+Z63 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd
+Z64 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd
+l0
+L15 1
+V27KYm<A0g3bS=[c[W^fhU2
+!s100 H<Tlf:05;QQ8C4>6UB:4C1
+R7
+32
+R8
+!i10b 1
+R9
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd|
+Z66 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 4 and2 0 22 27KYm<A0g3bS=[c[W^fhU2
+!i122 59
+l22
+L21 3
+V^IWOgUM]>QV[>c;8FDWJ80
+!s100 eITR4EBFOE<PQhYA43U[o3
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Eand4
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L27 1
+V^O^AlMzN9NdFcE0hPj1Q:2
+!s100 h=5f>Z8=SO4QlW3ae<ORh1
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 4 and4 0 22 ^O^AlMzN9NdFcE0hPj1Q:2
+!i122 59
+l34
+L33 3
+Vn[Z6[I;NWBM:CaNi6Dn9L1
+!s100 0H>Cd6_`7G3_g9;e8b64g3
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Ecla2
+Z67 w1701286271
+R1
+R2
+R3
+!i122 55
+R4
+Z68 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/CLA4.vhd
+Z69 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/CLA4.vhd
+l0
+L99 1
+VobcY<:4Mzl@UMUWIchDQf0
+!s100 POm4lG1V:Lh]V8JVF5[fj3
+R7
+32
+Z70 !s110 1701287030
+!i10b 1
+R53
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/CLA4.vhd|
+Z72 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/CLA4.vhd|
+!i113 1
+R12
+R13
+Astru_delay
+R1
+R2
+R3
+DEx4 work 4 cla2 0 22 obcY<:4Mzl@UMUWIchDQf0
+!i122 55
+l109
+L107 45
+VRRR?zINmlO=FjI[G_<?423
+!s100 V8a7lhMQB0k4ieg??W>mP0
+R7
+32
+R70
+!i10b 1
+R53
+R71
+R72
+!i113 1
+R12
+R13
+Ecla4
+R67
+R1
+R2
+R3
+!i122 55
+R4
+R68
+R69
+l0
+L4 1
+VI1oz0_8PPlIhozHhm`8K`1
+!s100 iaiNEiMF0RUhnG8GkUSbH0
+R7
+32
+R70
+!i10b 1
+R53
+R71
+R72
+!i113 1
+R12
+R13
+Astru_delay
+R1
+R2
+R3
+DEx4 work 4 cla4 0 22 I1oz0_8PPlIhozHhm`8K`1
+!i122 55
+l14
+L12 81
+VV40fKg7P2_@FLIR@kS>Za3
+!s100 o1eaC9;C2kITn7BWCfVQI0
+R7
+32
+R70
+!i10b 1
+R53
+R71
+R72
+!i113 1
+R12
+R13
+Efa1
+R24
+R2
+R3
+!i122 74
+R4
+R23
+R22
+l0
+L3 1
+Vo^zF0OPX66Y12lGl`oZd`2
+!s100 :bGcN<z5IfY=M^;?4]Io51
+R7
+32
+R25
+!i10b 1
+R26
+R20
+R21
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+DEx4 work 3 fa1 0 22 o^zF0OPX66Y12lGl`oZd`2
+!i122 74
+l9
+L8 8
+VoUUX>7?WU>>M_Lc;PFRE@3
+!s100 gUWGm2mQ^aF[`K8HRVGLB0
+R7
+32
+R25
+!i10b 1
+R26
+R20
+R21
+!i113 1
+R12
+R13
+Einv
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L3 1
+V@>NWa^SYSH2EaPcN]cg7>3
+!s100 JVG47X^]ifeeOWa=>1VW[0
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 3 inv 0 22 @>NWa^SYSH2EaPcN]cg7>3
+!i122 59
+l10
+L9 3
+VKl8a8LlXUR84BMM8mD3G50
+!s100 UVY@mbf5cVU3?AHjnXC@b2
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Pmyunits
+R2
+R3
+!i122 56
+w1700719864
+R4
+8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/myUnits.vhd
+FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/myUnits.vhd
+l0
+L4 1
+VAA4enbAkj>C?^3_c7gXLa3
+!s100 CFY<4CZ0GDVNib`KQX<J>1
+R7
+32
+R70
+!i10b 1
+R53
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/myUnits.vhd|
+!s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/myUnits.vhd|
+!i113 1
+R12
+R13
+Enand2
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L39 1
+VeD0TnYC5<OHBVzERXA[Y21
+!s100 fCDM6GA`ABY4CI=8kK@i02
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 5 nand2 0 22 eD0TnYC5<OHBVzERXA[Y21
+!i122 59
+l46
+L45 3
+VF0;LIYWKV`k`7ClzjOdf60
+!s100 bFb22h`_`XonV1IcKZ5m21
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Enand3
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L51 1
+V32CJ1H64N31Bi[KU5:EQA2
+!s100 @b5XmVTRC]3_XVkm4iGOj1
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 5 nand3 0 22 32CJ1H64N31Bi[KU5:EQA2
+!i122 59
+l58
+L57 3
+Vf4R9:J9MNoPM]7WKm9>^L3
+!s100 C^XYUTRmdn>i^DI_NNoQU2
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Enand4
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L63 1
+VJMe9GeVUdnF2id=zFTZTE0
+!s100 =Z>9D7eRF9:0ec>kZ5NV23
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 5 nand4 0 22 JMe9GeVUdnF2id=zFTZTE0
+!i122 59
+l70
+L69 3
+VER^;2VIgg:zXEmFbQ<TC`3
+!s100 6<D57^5BP1:`XSYPCPL]71
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Enand5
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L75 1
+VfdYJH:lEiYbI^zJO?nJ2b1
+!s100 gO8zfb_lLSk5Nhkg`L79o2
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 5 nand5 0 22 fdYJH:lEiYbI^zJO?nJ2b1
+!i122 59
+l82
+L81 3
+V1G<A<ll<FWOV6KnOlcIY;0
+!s100 [g@VXJ`XPT2I317F=<SBK3
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Epfa
+Z73 w1701286060
+R1
+R2
+R3
+!i122 54
+R4
+Z74 8C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/PFA_4.vhd
+Z75 FC:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/PFA_4.vhd
+l0
+L4 1
+V[6IKlFz0>Fj`Ai^QD_3H>2
+!s100 a[<`SWCR^:HM4Z^@Q9Udm2
+R7
+32
+R70
+!i10b 1
+R53
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/PFA_4.vhd|
+Z77 !s107 C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/PFA_4.vhd|
+!i113 1
+R12
+R13
+Astru_nodelay
+R1
+R2
+R3
+Z78 DEx4 work 3 pfa 0 22 [6IKlFz0>Fj`Ai^QD_3H>2
+!i122 54
+l26
+L24 13
+VoYLOeaEJSGYHo2`7UQg>`3
+!s100 <H<LM^;=fAKOV7z_d2Ni03
+R7
+32
+R70
+!i10b 1
+R53
+R76
+R77
+!i113 1
+R12
+R13
+Astru_delay
+R1
+R2
+R3
+R78
+!i122 54
+l12
+L10 13
+VVeDOR36W?CjO0L6IfCWSa2
+!s100 U=KX05Y]CFz20l7bFdh=e1
+R7
+32
+R70
+!i10b 1
+R53
+R76
+R77
+!i113 1
+R12
+R13
+Exor2
+R62
+R2
+R3
+!i122 59
+R4
+R63
+R64
+l0
+L87 1
+VBkWgFVf89;EF@hPFIE;481
+!s100 >N7NHZo0mBz4:>?gz7ZE?0
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 4 xor2 0 22 BkWgFVf89;EF@hPFIE;481
+!i122 59
+l94
+L93 3
+VY4VDCY60:=Z8GRDogDj^[2
+!s100 d3Elao_2G:0^E=V_zRL<K3
+R7
+32
+R8
+!i10b 1
+R9
+R65
+R66
+!i113 1
+R12
+R13

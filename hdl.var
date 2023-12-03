@@ -1,0 +1,3 @@
+define WORK work
+define WORKLIB work
+define NCVHDLOPTS -v200X -messages -nocopyright -smartlib

@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+entity add32_beh1 is
+port(A, B : in std_logic_vector (31 downto 0);
+     S: out std_logic_vector (31 downto 0);
+     Cin :in std_logic;
+     Cout :out std_logic
+     );
+end entity;
+architecture behavioral of add32_beh1 is
+signal Si : std_logic_vector (32 downto 0);
+begin
+Si <= ('0'&A) + ('0'&B) + (X"0000000"& Cin);
+S <=Si(31 dwonto 0);
+Cout<=Si(32);
+end architecture;

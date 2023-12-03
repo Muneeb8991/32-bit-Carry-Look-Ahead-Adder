@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.units1.all;
+
+entity add4 is
+port(A_4, B_4: in std_logic_vector (3 downto 0);
+     S_4: out std_logic_vector (3 downto 0);
+     Cout_4 :out std_logic;
+     Cin_4 :in std_logic;
+     P_4, G_4 : in std_logic_vector (3 downto 0);
+     P_03_4, G_03_4 : out std_logic
+     );
+end  entity;
+architecture structural of add4 is
+signal iSig : std_logic_vector (11 downto 0);
+begin
+pa0 : pfa
+port map(A=>A_4(0), B=>B_4(0), Cin=>Cin_4, S=>S_4(0), P=>iSig(0), G=>iSig(4));
+pa1 : pfa 
+port map(A=>A_4(1), B=>B_4(1), Cin=>iSig(8), S=>S_4(1), P=>iSig(1), G=>iSig(5));
+pa2 : pfa
+port map(A=>A_4(2), B=>B_4(2), Cin=>iSig(9), S=>S_4(2), P=>iSig(2), G=>iSig(6));
+pa3 : pfa
+port map(A=>A_4(3), B=>B_4(3), Cin=>iSig(10), S=>S_4(3), P=>iSig(3), G=>iSig(7));
+
+cla:cla4
+port map(Cin=>Cin_4, P=>iSig(3 downto 0), G=>iSig(7 downto 4), C=>iSig(11 downto 8), P_03=>P_03_4, G_03=>G_03_4);
+
+Cout_4 <= iSig(11);
+end architecture;

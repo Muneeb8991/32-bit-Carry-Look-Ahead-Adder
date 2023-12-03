@@ -1,0 +1,49 @@
+# Reading pref.tcl
+# OpenFile {C:/Users/munee/Desktop/Integrategit add
+# fatal: not a git repository (or any of the parent directories): .git
+git init
+# Initialized empty Git repository in C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/.git/
+git remote add origin https://github.com/Muneeb8991/32-bit-Carry-Look-Ahead-Adder
+git add
+# Nothing specified, nothing added.
+# hint: Maybe you wanted to say 'git add .'?
+# hint: Turn this message off by running
+# hint: "git config advice.addEmptyPathspec false"
+git add .
+# warning: in the working copy of 'aAnd2.vhd', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'aAnd2_tb.vhd', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'cds.lib', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'count5.vhd', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'count5_tb.vhd', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'fa1.vhd', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'hdl.var', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'nvh', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'work/_info', LF will be replaced by CRLF the next time Git touches it
+# warning: in the working copy of 'work/_vmake', LF will be replaced by CRLF the next time Git touches it
+git commit -m
+# error: switch `m' requires a value
+git commit
+# Author identity unknown
+# 
+# *** Please tell me who you are.
+# 
+# Run
+# 
+#   git config --global user.email "you@example.com"
+#   git config --global user.name "Your Name"
+# 
+# to set your account's default identity.
+# Omit --global to set the identity only in this repository.
+# 
+# fatal: unable to auto-detect email address (got 'munee@Muneeb-PC.(none)')
+git push
+# fatal: The current branch master has no upstream branch.
+# To push the current branch and set the remote as upstream, use
+# 
+#     git push --set-upstream origin master
+# 
+# To have this happen automatically for branches without a tracking
+# upstream, see 'push.autoSetupRemote' in 'git help config'.
+# 
+git clone https://github.com/Muneeb8991/32-bit-Carry-Look-Ahead-Adder
+# Cloning into '32-bit-Carry-Look-Ahead-Adder'...

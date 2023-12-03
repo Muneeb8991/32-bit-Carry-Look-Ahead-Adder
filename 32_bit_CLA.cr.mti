@@ -1,0 +1,97 @@
+{C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/CLA4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/CLA4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package myUnits
+-- Compiling entity CLA4
+-- Compiling architecture stru_delay of CLA4
+-- Compiling entity CLA2
+-- Compiling architecture stru_delay of CLA2
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD16.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD16.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package myUnits
+-- Compiling entity ADD16
+-- Compiling architecture structural of ADD16
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/myUnits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/myUnits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package myUnits
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package myUnits
+-- Compiling entity ADD4
+-- Compiling architecture strcutural of ADD4
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD4_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package myUnits
+-- Compiling entity add4_tb
+-- Compiling architecture tb of add4_tb
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package myUnits
+-- Compiling entity add32
+-- Compiling architecture structural of add32
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd} {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity inv
+-- Compiling architecture dataflow of inv
+-- Compiling entity and2
+-- Compiling architecture dataflow of and2
+-- Compiling entity and4
+** Warning: C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/basic gates.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+-- Compiling architecture dataflow of and4
+-- Compiling entity nand2
+-- Compiling architecture dataflow of nand2
+-- Compiling entity nand3
+-- Compiling architecture dataflow of nand3
+-- Compiling entity nand4
+-- Compiling architecture dataflow of nand4
+-- Compiling entity nand5
+-- Compiling architecture dataflow of nand5
+-- Compiling entity xor2
+-- Compiling architecture dataflow of xor2
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/PFA_4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/PFA_4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package myUnits
+-- Compiling entity pfa
+-- Compiling architecture stru_delay of pfa
+-- Compiling architecture stru_nodelay of pfa
+-- Loading entity pfa
+
+} {} {}} {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/munee/Desktop/Integrated Circuit and VHDL/Init/ADD32_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity add32_tb
+-- Compiling architecture tb of add32_tb
+
+} {} {}}

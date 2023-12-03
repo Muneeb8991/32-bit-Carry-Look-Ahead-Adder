@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.units1.all;
+
+entity add4_tb is
+end  entity;
+
+architecture tb of add4_tb is
+component add4 is
+port(A_4, B_4: in std_logic_vector (3 downto 0);
+     S_4: out std_logic_vector (3 downto 0);
+     Cout_4 :out std_logic;
+     Cin_4 :in std_logic;
+     P_03_4, G_03_4 : out std_logic
+     );
+end  component;
+signal A_4, B_4 : std_logic_vector (3 downto 0):= "0000";
+signal S_4 :  std_logic_vector (3 downto 0):= "0000";
+signal Cout_4 : std_logic;
+signal Cin_4 : std_logic:='0';
+signal P_03_4, G_03_4 : std_logic;
+begin
+dut : add4
+port map (A_4 =>A_4, B_4=> B_4, S_4=>S_4, Cout_4=>Cout_4, Cin_4=>Cin_4, P_03_4=>P_03_4, G_03_4=>G_03_4);
+
+A_4 <= "0011", "1011" after 10 ns, "1000" after 20 ns;
+B_4 <= "0001", "0001" after 10 ns, "1000" after 20 ns;
+Cin_4 <= '1', '0' after 10 ns, '0' after 20 ns;
+timebomb : process
+  begin 
+    wait for 100 ns;
+    assert false
+       report "Simulation Ended by MR at" & time 'image(now)
+      severity failure;
+  end process;
+end tb;

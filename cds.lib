@@ -1,0 +1,2 @@
+include $INCISIVE_HOME/tools/inca/files/cds.lib
+define work ~/vh23/work

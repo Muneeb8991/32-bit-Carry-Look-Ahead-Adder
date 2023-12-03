@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+package units1 is
+component cla4 is
+port(Cin: in std_logic;
+     G, P: in std_logic_vector (3 downto 0);
+     C: out std_logic_vector (3 downto 0);
+     P_03, G_03 : out std_logic
+     );
+end  component;
+
+component cla2 is
+port(Cin: in std_logic;
+     G, P: in std_logic_vector (1 downto 0);
+     C: out std_logic_vector (1 downto 0);
+     P_03, G_03 : out std_logic
+     );
+end component;
+
+component pfa is
+port(A, B, Cin: in std_logic;
+     G, P: out std_logic;
+     S : out std_logic
+     );
+end component;
+

@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package myUnits is
+
+component inv is 
+generic (delay :time :=11ps);
+port (A : in std_logic; 
+      Y : out std_logic);
+end component;
+
+component and2 is 
+generic (delay :time :=11ps);
+port (A, B: in std_logic; 
+      Y : out std_logic);
+end component;
+
+component  and4 is 
+generic (delay :time :=11ps);
+port (A, B, C, D: in std_logic; 
+      Y : out std_logic);
+end component;
+
+component nand2 is
+generic (delay :time :=11ps);
+port (A, B: in std_logic ; 
+      Y : out std_logic);
+end component;
+
+component nand3 is 
+generic (delay :time :=11ps);
+port (A, B, C: in std_logic ; 
+      Y : out std_logic);
+end component;
+
+component nand4 is 
+generic (delay :time :=11ps);
+port (A, B, C, D :in std_logic ; 
+      Y : out std_logic);
+end component;
+
+component nand5 is 
+generic (delay :time :=11ps);
+port (A, B, C, D, E :in std_logic ; 
+      Y : out std_logic);
+end component;
+
+component xor2 is 
+generic (delay :time :=11ps);
+port (A, B: in std_logic ; 
+      Y : out std_logic);
+end component;
+
+end package;

@@ -1,0 +1,43 @@
+library ieee;
+use  ieee.std_logic_1164.all;
+entity stim_tb is
+generic(tfinal : time := 100 ns);
+end entity;
+
+architecture tb of stim_tb is
+signal clk1,clk2,clk3 : std_logic := '0';
+signal rst1,rst2,rst3 : std_logic := '0';
+begin
+clk1 <= not clk1 after 10 ns;
+rst1 <= '0', '1' after 10 ns, '0' after 20 ns;
+rst2 <= '1'after 10 ns,  '0' after 20 ns;
+
+prst3 : process begin
+rst3 <= '0';
+wait for 10 ns;
+rst3 <= '1';
+wait for 10 ns;
+rst3 <= '0';
+wait;
+end process;
+
+pclk2 : process begin
+wait for 10 ns;
+clk2 <= not clk2;
+end  process;
+
+pclk3 : process begin
+wait for 10 ns;
+clk3 <= '0';
+wait for 10 ns;
+clk3 <= '1';
+end process;
+
+stop : process
+begin
+wait for tfinal;
+assert false;
+report "simulation ended at tiime" & time 'image (now)
+severity failure;
+end process;
+end tb;

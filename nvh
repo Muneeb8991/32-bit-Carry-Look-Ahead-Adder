@@ -1,0 +1,11 @@
+#!/bin/bash
+unset TMOUT
+export PATH=~/vh23:$PATH
+export cds_root=/apps/cadencetools
+export INCISIVE_HOME=/apps/cadencetools/2017/INCISIVE1510
+. /usr/share/Modules/init/bash
+module add apps/cadencetools/2017/incisive/1510
+echo "Shell : " $SHELL
+echo "VHDL and Verilog Simulator"
+echo "Working Directory: " $PWD
+nclaunch &

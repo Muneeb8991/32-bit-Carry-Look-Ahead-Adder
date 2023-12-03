@@ -1,0 +1,49 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity cla4 is
+port(Cin: in std_logic;
+     G, P: in std_logic_vector (3 downto 0);
+     C: out std_logic_vector (3 downto 0);
+     P_03, G_03 : out std_logic
+     );
+end  entity;
+architecture structural of cla4 is 
+begin
+C(0) <= G(0) or (P(0) and Cin);
+C(1) <= G(1) or (P(0) and G(1)) or (P(1) and P(0) and Cin);
+C(2) <= G(2) or (P(2) and G(1)) or (P(1) and P(2) and G(0)) or  (Cin and P(0) and P(1) and P(2));
+C(3) <= G(3) or (P(3) and G(2)) or (P(3) and P(2) and G(1)) or (G(0) and P(1) and P(2) and P(3)) or (Cin and P(0) and P(1) and P(2) and P(3));
+G_03 <= G(3) or (G(2) and P(3)) or (G(1) and P(2) and P(3)) or (G(0) and P(1) and P(2) and P(3));
+P_03 <= P(0) and P(1) and P(2) and P(3);
+end architecture;
+
+library ieee;
+use ieee.std_logic_1164.all;
+entity cla2 is
+port(Cin: in std_logic;
+     G, P: in std_logic_vector (1 downto 0);
+     C: out std_logic_vector (1 downto 0);
+     P_03, G_03 : out std_logic
+     );
+end entity;
+architecture structural of cla2 is
+begin
+C(0) <= not(G(0)) nand (P(0) nand Cin);
+C(1) <= G(1) or (P(0) and G(1)) or (P(1) and P(0) and Cin);
+P_03 <= P(0) and P(1);
+G_03 <= G(1) or (G(0) and P(1));
+end architecture;
+library ieee;
+use ieee.std_logic_1164.all;
+entity pfa is
+port(A, B, Cin: in std_logic;
+     G, P: out std_logic;
+     S : out std_logic
+     );
+end  entity;
+architecture structural of pfa is 
+begin
+S <= A xor B xor Cin;
+G <= A and B;
+P <= A xor B;
+end architecture;

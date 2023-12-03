@@ -1,0 +1,41 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.units1.all;
+
+entity add16 is
+port(A_16, B_16: in std_logic_vector (15 downto 0);
+     S_16: out std_logic_vector (15 downto 0);
+     Cout_16 :out std_logic;
+     Cin_16 :in std_logic;
+     P_03_16, G_03_16 : out std_logic
+     );
+end  entity;
+
+architecture structural of add16 is
+
+component add4 is
+port(A_4, B_4: in std_logic_vector (3 downto 0);
+     S_4: out std_logic_vector (3 downto 0);
+     Cout_4 :out std_logic;
+     Cin_4 :in std_logic;
+     P_4, G_4 : in std_logic_vector (3 downto 0);
+     P_03_4, G_03_4 : out std_logic
+     );
+end component;
+signal iSig : std_logic_vector(11 downto 0);
+begin
+add0: add4
+port map(A_4=>A_16(3 downto 0), B_4=>B_16(3 downto 0), S_4=>S_16(3 downto 0), Cout_4=>open, Cin_4=>Cin_16, P_03_4=>iSig(0), G_03_4=>iSig(4));
+add1: add4
+port map(A_4=>A_16(7 downto 4), B_4=>B_16(7 downto 4), S_4=>S_16(7 downto 4), Cout_4=>open, Cin_4=>iSig(8), P_03_4=>iSig(1), G_03_4=>iSig(5));
+add2: add4
+port map(A_4=>A_16(11 downto 8), B_4=>B_16(11 downto 8), S_4=>S_16(11 downto 8), Cout_4=>open, Cin_4=>iSig(9), P_03_4=>iSig(2), G_03_4=>iSig(6));
+add3: add4
+port map(A_4=>A_16(15 downto 12), B_4=>B_16(15 downto 12), S_4=>S_16(15 downto 12), Cout_4=>open, Cin_4=>iSig(10), P_03_4=>iSig(3), G_03_4=>iSig(7));
+
+cla3: cla4
+port map(Cin=>Cin_16, P=>iSig(3 downto 0), G=>iSig(7 downto 4), C=>iSig(11 downto 8), P_03=>P_03_16, G_03=>G_03_16);
+Cout_16 <= iSig(11);
+end structural;
+
+

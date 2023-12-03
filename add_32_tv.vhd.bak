@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.units1.all;
+
+entity add32_tb is
+end  entity;
+
+architecture tb of add32_tb is
+component add32 is
+port(A_32, B_32: in std_logic_vector (31 downto 0);
+     S_32: out std_logic_vector (31 downto 0);
+     Cout_32 :out std_logic;
+     Cin_32 :in std_logic
+     );
+end  component;
+signal A_32, B_32 : std_logic_vector (31 downto 0):= X"00000000";
+signal S_32 :  std_logic_vector (31 downto 0):= X"00000000";
+signal Cout_32 : std_logic;
+signal Cin_32 : std_logic:='0';
+begin
+dut : add32
+port map (A_32 =>A_32, B_32=> B_32, S_32=>S_32, Cout_32=>Cout_32, Cin_32=>Cin_32);
+
+A_32 <= X"1000abcd", X"000003f" after 10  ns, X"00000001" after 20 ns;
+B_32 <= X"00000001" , X"00000001"after 10 ns, X"00000010" after 20 ns;
+Cin_32 <= '1', '0' after 10 ns, '0' after 20 ns;
+timebomb : process
+  begin 
+    wait for 100 ns;
+    assert false
+        report "Simulation Ended by MR at" & time 'image(now)
+      severity failure;
+  end process;
+end tb;

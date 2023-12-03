@@ -1,0 +1,33 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.units1.all;
+entity add32 is
+port(A_32, B_32: in std_logic_vector (31 downto 0);
+     S_32: out std_logic_vector (31 downto 0);
+     Cin_32 :in std_logic;
+     Cout_32 :out std_logic
+     );
+end entity;
+
+
+architecture structural of add32 is
+component add16 is
+port(A_16, B_16: in std_logic_vector (15 downto 0);
+     S_16: out std_logic_vector (15 downto 0);
+     Cout_16 :out std_logic;
+     Cin_16 :in std_logic;
+     P_03_16, G_03_16 : out std_logic
+     );
+end  component;
+
+signal iSig: std_logic_vector (15 downto 0);
+begin
+add_1 : add16
+port map(A_16=>A_32(15 downto 0), B_16=>B_32(15 downto 0), S_16=>S_32(15 downto 0), Cin_16=>Cin_32, Cout_16=iSig(12), P_03_16=>iSig(0), G_03_16=>iSig(2));
+add_2: add16
+port map(A_16=>A_32(31 downto 16), B_16=>B_32(31 downto 16), S_16=>S_32(31 downto 16), Cin_16=>iSig(4), Cout_16=iSig(13), P_03_16=>iSig(1), G_03_16=>iSig(3));
+cla_1:cla2
+port map(Cin=>Cin_32, P=>iSig(1 downto 0), G=>iSig(3 downto 2), C=>iSig(5 downto 4), P_03 =>iSig(14), G_03=>iSig(15));
+Cout_32 <=iSig(5);
+end architecture;
+
